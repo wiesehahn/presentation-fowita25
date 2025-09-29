@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 title: >-
-  Quarto Presentation Template
+  From Plots to Landscapes: Integrating Remote Sensing Data to Map Forest Biodiversity
 message: >-
-  Rendered presentation available at https://wiesehahn.github.io/quarto_presentation_template/presentation
+  Rendered presentation available at https://wiesehahn.github.io/presentation-fowita25/presentation.html
 type: dataset
 authors:
   - given-names: Jens
@@ -14,13 +14,20 @@ identifiers:
   - type: doi
     value: someDOI/zenodo.example
 repository-code: >-
-  https://github.com/wiesehahn/quarto_presentation_template
+  https://github.com/wiesehahn/presentation-fowita25
 url: >-
-  https://wiesehahn.github.io/quarto_presentation_template/presentation
+  https://wiesehahn.github.io/presentation-fowita25/presentation
 abstract: >-
-  Template repository to help creating a presentation in Quarto which is rendered to RevealJS via Github Actions. 
+  Climate change-induced pressures are altering forest structural characteristics, driving shifts in species composition with consequent biodiversity loss. These changes pose significant challenges for forest management and conservation across Europe. In response, the European Green Deal has established ambitious environmental frameworks, including the EU Biodiversity Strategy and the more recent Forest Monitoring Regulation proposal, which collectively aim to improve monitoring and protection of forest ecosystems.
+We present a conceptual framework for developing comprehensive, spatially continuous biodiversity maps across forested landscapes by integrating multi-source remote sensing data with environmental parameters. Our approach combines abiotic factors such as climate variables, soil characteristics and topography with forest structural metrics derived from remote sensing data to predict biodiversity patterns. For development and future validation, we utilize terrestrial inventory data from systematically distributed plots across forest monitoring sites in Lower Saxony, providing species abundance and structural measurements from both managed and unmanaged forest ecosystems.
+This presentation outlines our strategy for integrating complementary remote sensing technologies to optimize biodiversity assessment capabilities across Lower Saxony’s diverse forest landscapes. We propose leveraging the detailed structural information from Airborne Laser Scanning (ALS) as a baseline, while incorporating more frequently acquired satellite imagery and photogrammetric data to detect and update areas experiencing significant structural changes. This multi-sensor approach allows for capturing fine-scale forest attributes (canopy layering, gap dynamics, structural complexity) while maintaining temporal relevance.
+At this initial stage of research, we seek to discuss the conceptual and methodological challenges of integrating these data streams as proxies for biodiversity indicators that bridge the scale gap between plot-based measurements and landscape-level assessments. These challenges include managing complex interactions between multiple biodiversity drivers and the computational demands of processing large, heterogeneous datasets. The proposed framework enables frequent, spatially comprehensive biodiversity monitoring to support evidence-based sustainable forest management under increasing climatic pressures.
 keywords:
-  - Keyword1
-  - Keyword2
+  - Forest Disturbances
+  - Airborne Laser Scanning
+  - Climate Change
+  - Remote Sensing
+  - Forest Monitoring
+  - Biodiversity
 license: CC-BY-SA-4.0
-date-released: 2023-07-31
+date-released: 2025-09-29
