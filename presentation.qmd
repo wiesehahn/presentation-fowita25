@@ -1,453 +1,403 @@
+---
+#title: ""
+#subtitle: ""
+#author: "Jens Wiesehahn"
+#institute: "Nordwestdeutsche Forstliche Versuchsanstalt" 
+title-slide-attributes:
+    data-background-image: images/presentation_title_image.png
+---
 
-<!-- EXAMPLE CONTENT - EDIT / REPLACE BELOW -->
+# Klimawandelbedingte Veränderungen unserer Wälder
 
-# Slide 1.1
+<br>
 
-![Alternative image text](images/triangle_logo.png){.lightbox}
-
-## Slide 1.2
-
-
-# Quarto syntax examples
-
-## Attribution
-
-With the [Attribution extension](https://github.com/quarto-ext/attribution) we can display attributions on the right side.
-
-```markdown
-::: {.attribution}
-by [Jens Wiesehahn](https://wiesehahn.github.io/)
-:::
-```
+:::: {.r-stack}
+::: {.fragment .fade-out fragment-index=1}
+![](images/climate_stripes_global_1850-2024.png){height=400px}
 
 ::: {.attribution}
-by [Jens Wiesehahn](https://wiesehahn.github.io/)
+Bildquelle:  [showyourstripes.info](https://showyourstripes.info/)
+:::
+
+:::
+
+::: {.fragment .fade-in-then-out fragment-index=1}
+- Klimawandelbedingte **Änderungen der Waldstruktur**  
+  @grimmImpactsClimateChange2013
+<br>
+<br>
+
+![](images/brocken.jpg){height=400px}
+
+::: {.attribution}
+Bildquelle:  [mapbox.com](https://www.mapbox.com/)
+:::
+
 :::
 
 
-## Reference & Footer
+::: {.fragment .fade-in-then-out fragment-index=2}
+- Klimawandelbedingte **Änderungen der Waldstruktur**
+- Waldstruktur ist **verknüpft mit Artenzusammensetzung**  
+  @toivonenAssessingBiodiversityUsing2023; @pailletOneRuleThem2024
+<br>
 
-``` markdown                            
-Lets insert a reference at the end of a sentence [@Wiesehahn_2023]. 
-```
-Lets insert a reference at the end of a sentence [@Wiesehahn_2023]. 
+![](images/brocken.jpg){height=400px}
 
-
-``` markdown                            
-@Wiesehahn_2023 inserts an inline reference.
-```
-@Wiesehahn_2023 inserts an inline reference.
-
-
-
-The reference list is added at the end of the document, or can be added via 
-```markdown
-::: {#refs}
+::: {.attribution}
+Bildquelle:  [mapbox.com](https://www.mapbox.com/)
 :::
 
-```
-
-To insert a footer use:
-
-
-``` markdown                            
-::: footer
-Custom footer text
-:::
-```
-::: footer
-Custom footer text
 :::
 
-
-
-## Text Formatting
-
-+-----------------------------------------+-----------------------------------------+
-| Markdown Syntax                         | Output                                  |
-+=========================================+=========================================+
-| ``` markdown                            | *italics*, **bold**, ***bold italics*** |
-| *italics*, **bold**, ***bold italics*** |                                         |
-| ```                                     |                                         |
-+-----------------------------------------+-----------------------------------------+
-| ``` markdown                            | superscript^2^ / subscript~2~           |
-| superscript^2^ / subscript~2~           |                                         |
-| ```                                     |                                         |
-+-----------------------------------------+-----------------------------------------+
-| ``` markdown                            | ~~strikethrough~~                       |
-| ~~strikethrough~~                       |                                         |
-| ```                                     |                                         |
-+-----------------------------------------+-----------------------------------------+
-| ``` markdown                            | `verbatim code`                         |
-| `verbatim code`                         |                                         |
-| ```                                     |                                         |
-+-----------------------------------------+-----------------------------------------+
-
-## Headings
-
-+-----------------+-----------------------------------+
-| Markdown Syntax | Output                            |
-+=================+===================================+
-| ``` markdown    | # Header 1 {.heading-output}      |
-| # Header 1      |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-| ``` markdown    | ## Header 2 {.heading-output}     |
-| ## Header 2     |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-| ``` markdown    | ### Header 3 {.heading-output}    |
-| ### Header 3    |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-| ``` markdown    | #### Header 4 {.heading-output}   |
-| #### Header 4   |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-| ``` markdown    | ##### Header 5 {.heading-output}  |
-| ##### Header 5  |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-| ``` markdown    | ###### Header 6 {.heading-output} |
-| ###### Header 6 |                                   |
-| ```             |                                   |
-+-----------------+-----------------------------------+
-
-
-## Links & Images
-
-``` markdown                                                                                                                                     
-<https://quarto.org>                                                                                                                                                 
-```
-<https://quarto.org>
-
-
-``` markdown
-[Quarto](https://quarto.org)
-```
-[Quarto](https://quarto.org)           
-
-
-``` markdown
-![Caption](/images/triangle_logo.png)
-```
-![Caption](/images/triangle_logo.png){fig-alt="Logo image"}  
-
-
-``` markdown                                                                             
-[![Caption](/images/triangle_logo.png)](https://quarto.org)
-```
-[![Caption](/images/triangle_logo.png)](https://quarto.org)    
-
-
-``` markdown                                                  
-[![Caption](/images/triangle_logo.png)](https://quarto.org " Logo image")
-```
-[![Caption](/images/triangle_logo.png " Logo image"){fig-alt="Logo image."}](https://quarto.org) 
-
-
-``` markdown                                                             
-[![](/images/triangle_logo.png){fig-alt="Alt text"}](https://quarto.org)
-```
-[![](/images/triangle_logo.png){fig-alt="Logo image."}](https://quarto.org)          
-
-
-## Lists {.scrollable}
-
-+-----------------------------------+---------------------------------+
-| Markdown Syntax                   | Output                          |
-+===================================+=================================+
-| ``` markdown                      |                                 |
-| * unordered list                  | * unordered list                |
-|     + sub-item 1                  |     + sub-item 1                |
-|     + sub-item 2                  |     + sub-item 2                |
-|         - sub-sub-item 1          |         - sub-sub-item 1        |
-| ```                               |                                 |
-+-----------------------------------+---------------------------------+
-| ``` markdown                      |                                 |
-| *   item 2                        | -   item 2                      |
-|                                   |                                 |
-|     Continued (indent 4 spaces)   |     Continued (indent 4 spaces) |
-| ```                               |                                 |
-+-----------------------------------+---------------------------------+
-| ``` markdown                      |                                 |
-| 1. ordered list                   |  1. ordered list                |
-| 2. item 2                         |  2. item 2                      |
-|     i) sub-item 1                 |      i) sub-item 1              |
-|          A.  sub-sub-item 1       |           A.  sub-sub-item 1    |
-| ```                               |                                 |
-|                                   |                                 |
-+-----------------------------------+---------------------------------+
-| ``` markdown                      |                                 |
-| (@)  A list whose numbering       |  (1) A list whose numbering     |
-|                                   |                                 |
-| continues after                   |  continues after                |
-|                                   |                                 |
-| (@)  an interruption              |  (2) an interruption            |
-| ```                               |                                 |
-+-----------------------------------+---------------------------------+
-| ``` markdown                      |                                 |
-| ::: {}                            | ::: {}                          |
-| 1. A list                         | 1. A list                       |
-| :::                               | :::                             |
-|                                   |                                 |
-| ::: {}                            | ::: {}                          |
-| 1. Followed by another list       | 1. Followed by another list     |
-| :::                               | :::                             |
-| ```                               |                                 |
-+-----------------------------------+---------------------------------+
-| ``` markdown                      |                                 |
-| term                              | term                            |
-| : definition                      | : definition                    |
-| ```                               |                                 |
-+-----------------------------------+---------------------------------+
-
-Note that unlike other Markdown renderers (notably Jupyter and GitHub), lists in Quarto require an entire blank line above the list. Otherwise the list will not be rendered in list form, rather it will all appear as normal text along a single line.
-
-
-
-## Tables
-
-#### Markdown Syntax
-
-``` markdown
-| Right | Left | Default | Center |
-|------:|:-----|---------|:------:|
-|   12  |  12  |    12   |    12  |
-|  123  |  123 |   123   |   123  |
-|    1  |    1 |     1   |     1  |
-```
-
-#### Output
-
-| Right | Left | Default | Center |
-|------:|:-----|---------|:------:|
-|    12 | 12   | 12      |   12   |
-|   123 | 123  | 123     |  123   |
-|     1 | 1    | 1       |   1    |
-
-
-
-## Source Code {.scrollable}
-
-Use ```` ``` ```` to delimit blocks of source code:
-
-Add a language to syntax highlight code blocks:
-
-```` markdown
-```python
-1 + 1
-```
-````
-
-Pandoc supports syntax highlighting for over [140 different languages](https://github.com/jgm/skylighting/tree/master/skylighting-core/xml). If your language is not supported then you can use the `default` language to get a similar visual treatment:
-
-```` markdown
-```default
-code
-```
-````
-
-
-Naming code blocks like
-
-````markdown
-```{.r filename="script.r"}
-1+1
-```
-````
-gives
-
-````{.r filename="script.r"}
-1+1
-````
-
-
-Highlight certain lines with e.g. `{.python code-line-numbers="6-8"}`
-
-```{.python code-line-numbers="6-8"}
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-
-
-You can collapse code with 
-```markdown 
-#| code-fold: true
-#| code-summary: "Code"
-```
-
-````{.r}
-#| code-fold: true
-#| code-summary: "Code"
-
-1+1
-````  
-
-
-
-## Equations
-
-Use `$` delimiters for inline math and `$$` delimiters for display math. For example:
-
-+---------------------------+-------------------------+
-| Markdown Syntax           | Output                  |
-+===========================+=========================+
-| ``` markdown              |                         |
-| inline math: $E = mc^{2}$ | inline math: $E=mc^{2}$ |
-| ```                       |                         |
-+---------------------------+-------------------------+
-| ``` markdown              |                         |
-| display math:             | display math:           |
-|                           |                         |
-| $$E = mc^{2}$$            | $$E = mc^{2}$$          |
-| ```                       |                         |
-+---------------------------+-------------------------+
-
-
-## Diagrams
-
-Quarto has native support for embedding [Mermaid](https://mermaid-js.github.io/mermaid/#/) and [Graphviz](https://graphviz.org/) diagrams. This enables you to create flowcharts, sequence diagrams, state diagrams, Gantt charts, and more using a plain text syntax inspired by markdown.
-
-For example, here we embed a flowchart created using Mermaid:
-
-```{mermaid}
-%%| echo: fenced
-flowchart LR
-    A[Hard edge] --> B(Round edge)
-    B --> C{Decision}
-    C --> D[Result one]
-    C --> E[Result two]
-```
-
-
-## Videos
-
-You can include videos in documents using the `{{{< video >}}}` shortcode. For example, here we embed a YouTube video:
-
-``` {.markdown shortcodes="false"}
-{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
-```
-
-{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
-
-
-
-## Divs and Spans
-
-You can add classes, attributes, and other identifiers to regions of content using Divs and Spans (you'll see an example of this below in [Callout Blocks]).
-
-For example, here we add the "border" class to a region of content using a div (`:::`):
-
-``` markdown
-::: {.second-color}
-This content can be styled with a border
+::: {.fragment .fade-in fragment-index=3}
+- Klimawandelbedingte **Änderungen der Waldstruktur**
+- Waldstruktur ist **verknüpft mit Artenzusammensetzung**
+- **Auswirkungen auf Biodiversität** und Waldbewirtschaftung  
+  @ehbrechtGlobalPatternsClimatic2021
+
+![](images/biodiversity_stripes_global_1970-2020.png){height=400px}
+
+::: {.attribution}
+Bildquelle:  [biodiversitystripes.info](https://biodiversitystripes.info/)
 :::
-```
 
-::: {.second-color}
-This content can be styled with a border
+:::
+::::
+
+
+
+::: {.notes}
+- DIVERSA: Forest disturbances under climate change in Lower Saxony: Understanding drivers and impacts to enhance forest adaptability
+- Artenvielfalt insgesamt geht zurück, in EU Wald kürzlich positiver Trend (https://efi.int/forestbiodiversity/status)
 :::
 
 
-``` markdown
-[This is *some text*]{.third-color}
-```
+# Politischer Rahmen für das Biodiversitätsmonitoring
 
-[This is *some text*]{.third-color}
+<br>
 
-
-## Callout Blocks
-
-#### Markdown Syntax
-
-``` markdown
-:::{.callout-note}
-Note that there are five types of callouts, including: 
-`note`, `tip`, `warning`, `caution`, and `important`.
-:::
-```
-
-#### Output
-
-::: callout-note
-Note that there are five types of callouts, including `note`, `tip`, `warning`, `caution`, and `important`.
-:::
-
-::: callout-tip
-Note that there are five types of callouts, including `note`, `tip`, `warning`, `caution`, and `important`.
-:::
-
-::: callout-warning
-Note that there are five types of callouts, including `note`, `tip`, `warning`, `caution`, and `important`.
-:::
-
-::: callout-caution
-Note that there are five types of callouts, including `note`, `tip`, `warning`, `caution`, and `important`.
-:::
-
-::: callout-important
-Note that there are five types of callouts, including `note`, `tip`, `warning`, `caution`, and `important`.
+:::: {.columns}
+::: {.column width="50%"}
+- **European Green Deal**
+  
+  *Strategie um Europa bis 2050 klimaneutral und ökologisch nachhaltig zu gestalten*
+- **EU Biodiversitätsstrategie**
+  
+  *Schutz und Wiederherstellung der biologischen Vielfalt in Europa bis 2030*
+- **EU-Verordnung zum Waldmonitoring** (Vorschlag)
+  
+  *Ergänzung und Harmonisierung nationaler Systeme, auch Einbeziehung von Fernerkundungsdaten*
+- **Nationales Biodiversitätsmonitoring im Wald** (Konzept, @bolteKonzeptFuerNationales2025)  
+  
+  *integratives Monitoring aus bestehenden und zusätzlichen Erhebungen, perspektivisch auch Fernerkundungsdaten*
 :::
 
 
-## Other Blocks
 
-+--------------------------+--------------------------+
-| Markdown Syntax          | Output                   |
-+==========================+==========================+
-| ``` markdown             | > Blockquote             |
-| > Blockquote             |                          |
-| ```                      |                          |
-+--------------------------+--------------------------+
-| ``` markdown             | ::: classname            |
-| ::: {.classname}         | Div                      |
-| Div                      | :::                      |
-| :::                      |                          |
-| ```                      |                          |
-+--------------------------+--------------------------+
-| ``` markdown             | | Line Block             |
-| | Line Block             | |    Spaces and newlines |
-| |   Spaces and newlines  | |    are preserved       |
-| |   are preserved        |                          |
-| ```                      |                          |
-+--------------------------+--------------------------+
+::: {.column width="10%"}
+:::
 
-# Final Slide
+::: {.column width="40%"}
+![](images/biodiversity-green-deal.png){height=400px}
+
+![](images/natbiowald.jpg){height=400px}
+
+::: {.attribution}
+Bildquelle:  [thuenen.de](https://www.thuenen.de), [geolandproject.eu](https://www.geolandproject.eu)
+:::
+
+:::
+::::
+
+::: {.notes}
+Biodiversität und deren Monitoring ist stärker in den Fokus der Politik gerückt
+:::
+
+
+
+# Terrestrische Biodiversitätsdaten
+
+<br>
+
+**Monitoringkonzept für den Landeswald**
+
+:::: {.columns}
+::: {.column width="50%"}
+- 590 systematisch verteilte Inventurpunkte
+- Niedersachsen (+ Hessen, Sachsen-Anhalt, Schleswig Holstein)
+- diverse Waldtypen: naturnah und bewirtschaftet
+- Artenvorkommen und Strukturaufnahmen
+- Wiederholung alle 5 Jahre
+
+<br>
+
+![](images/nwe_monitoring_schema_point.png)
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="40%"}
+
+:::: {.r-stack}
+::: {.fragment .fade-out  fragment-index=1}
+![](images/nwe_monitoring_sample_points.png)
+:::
+
+::: {.fragment .fade-in  fragment-index=1}
+![](images/nwe_monitoring_sample_schema_table.png)
+:::
+::::
+
+@singerBiodiversitaetsmonitoringWaeldernMit2025
+:::
+::::
+
+::: {.attribution}
+Bildquelle:  @singerBiodiversitaetsmonitoringWaeldernMit2025
+:::
+
+
+# Biodiversität flächendeckend erfassen
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+Ziel:  
+
+- Räumlich konsistente **Biodiversitätskarten** für Wälder
+
+<br>
+
+Konzept: 
+
+- Verknüpfung von **lokalen Erhebungen + großflächigen Geodaten**
+- **Waldstrukturerfassung aus Airborne Laserscanning** als Basis
+- Integration von Umweltvariablen und **multi-sensorischer Fernerkundungsdaten** als  Indikatoren und zur Aktualisierung der Waldstruktur
+
+<br>
+<br>
+
+*Ähnliche Projekte:*  
+*z.B. MoBiTools (NW-FVA), @collardHabitatQualityAssessment2025, @assmannTemperateForestsHigh2025*
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="40%"}
+
+:::: {.r-stack}
+::: {.fragment .fade-out  fragment-index=1}
+![](images/samplepoints_ortho.jpeg){height=500px}
+:::
+
+::: {.fragment .fade-in  fragment-index=1}
+![](images/samplepoints_biodiv.jpeg){height=500px}
+:::
+::::
+
+:::: {.r-stack}
+![](images/terrestrial_plot_schematic.png){height=400px .fragment .fade-out  fragment-index=1}
+
+![](images/terrestrial_ans_als_plot_schematic.png){height=400px .fragment .fade-in  fragment-index=1}
+::::
+
+:::
+::::
+
+::: {.attribution}
+Bildquelle:  Wiesehahn, [LGLN](https://www.lgln.niedersachsen.de)
+:::
+
+::: {.notes}
+- als Entscheidungshilfe für verschiedene Akteure
+- ähnlich: BI/BWI erlauben gute Aussagen für große Gebeite aber nicht für einzelen Bestände 
+- unmittelbare Erfassung von Diversität und Artenzusammensetzung unerlässlich
+
+- MoBiTools erfasst biodiversitätsrelevante Waldstrukturen über Luftbild- und Satellitendaten
+- Assmann: Kombination aus ALS, Boden, Wasserverfügbarkeit, geupdatet mit Störungsflächen um Naturschutzwert zu kartieren
+:::
+
+
+# Waldstrukturerfassung aus Airborne Laserscanning
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+- Präzise **3d-Abbildung des Waldes**  
+  (Gold-Standard der Waldstrukturerfassung)
+- Daten **flächendeckend verfügbar**  
+  (von Landesvermessungsämtern)
+- Wiederholung alle **6-10 Jahre**
+- Datenverfügbarkeit wird besser
+  - höhere Abbildungsgenauigkeit
+  - höhere Wiederholungsrate
+  - vermehrt OpenData 
+  - perspektivisch bundesweite Daten des BKG
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="40%"}
+
+
+:::: {.r-stack}
+::: {.fragment .fade-out  fragment-index=1}
+![](images/beech_stand_above.png)
+
+::: {.attribution}
+Bildquelle:  Wiesehahn, [LGLN](https://www.lgln.niedersachsen.de)
+:::
+
+:::
+
+::: {.fragment .fade-in-then-out  fragment-index=1}
+![](images/beech_stand_deadwood.png)
+
+::: {.attribution}
+Bildquelle:  Wiesehahn, [LGLN](https://www.lgln.niedersachsen.de)
+:::
+
+:::
+
+::: {.fragment .fade-in-then-out  fragment-index=2}
+![](images/laegeren_3d.png)
+
+::: {.attribution}
+Bildquelle:  @morsdorfLaegerenSiteAugmented2020
+:::
+
+:::
+::::
+
+:::
+::::
+
+
+
+::: {.notes}
+Feuchtgebiete
+Sukzessionsstadium
+Waldtyp
+Vernetzung
+Bestandesheterogenität
+:::
+
+# Orthofotos zur Aktualisierung der Waldstruktur 
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+- Visuelles **Abbild des Kronenzustands**
+- Daten **flächendeckend verfügbar**  
+  (von Landesvermessungsämtern oder im Rahmen der Forsteinrichtung)
+- Wiederholung alle **2-3 Jahre**
+- Ableitung von **Veränderungen**  
+  (aus spektralen Information + abgeleitetem Oberflächenmodell)
+- Nutzung zu groben **Aktualisierung der Waldstruktur** 
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="40%"}
+![](images/beech_stand_ortho.png)
+:::
+::::
+
+::: {.attribution}
+Bildquelle:  [Bing Virtual Earth](https://www.bing.com/maps)
+:::
+
+# Großflächige Störungen aus Satellitenbildern
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+- großflächige Daten zum **Waldzustand**
+- Sentinel/Landsat-Zeitreihen **flächendeckend + kontinuierlich verfügbar**
+- Wiederholung alle **paar Tage**
+- Ableitung von **Waldschadensflächen**  
+  (jährlich / halbjährlich)
+- Nutzung als Indikator und zur groben **Aktualisierung der Waldstruktur** 
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="40%"}
+**European Forest Disturbance Atlas**
+
+<br>
+
+![](images/european_disturbance_atlas.png)
+
+@viana-sotoEuropeanForestDisturbance2025
+:::
+::::
+
+::: {.attribution}
+Bildquelle:  @viana-sotoEuropeanForestDisturbance2025
+:::
+
+# Konzept zur Biodiversitätskartierung {auto-animate=true}
+
+<br>
+
+- **Waldstruktur aus ALS-Daten**
+- **Verknüpft mit terrestrischen Daten**
+- **Aktualisiert mit Ortho- und Satellitenbildern**
+- **Ergänzt mit weiteren Daten**   
+  (Klima, Boden, Baumarten, ...)
+
+:::: {.r-stack}
+![](images/terrestrial_als_additional_plot_schematic.png){width=80% }
+::::
+
+::: {.attribution}
+Bildquelle:  Wiesehahn, [LGLN](https://www.lgln.niedersachsen.de)
+:::
+
+
+# Konzept zur Biodiversitätskartierung {transition="fade" auto-animate=true}
 
 <br>
 
 :::: {.columns}
 ::: {.column width="70%"}
+- **Waldstruktur aus ALS-Daten**
+- **Verknüpft mit terrestrischen Daten**
+- **Aktualisiert mit Ortho- und Satellitenbildern**
+- **Ergänzt mit weiteren Daten**   
+  (Klima, Boden, Baumarten, ...)
 
-some **conclusion** remarks
 
-- [nice presentation]{.highlight-color-pink}
-
+<br>
+<br>
 <br>
 
 {{< iconify tabler mail size=lg >}} *[{{< var email-adress >}}](mailto:{{< var email-adress >}})*
 
 {{< iconify line-md mastodon size=lg >}} *[{{< var mastodon-name >}}]({{< var mastodon-url >}})*
 
+
 :::
 
 ::: {.column width="30%"}
-Slides available at: 
+Prsentation online unter: 
 
 [{{< var website-name >}}]({{< var website-url >}})
 
 <br>
 
-{{< qrcode https://wiesehahn.github.io/quarto_presentation_template width=500 height=500 colorDark='#0011bb' >}}
+{{< qrcode https://wiesehahn.github.io/presentation-fossgis25 width=500 height=500 colorDark='#0011bb' >}}
 :::
 ::::
 
@@ -458,3 +408,65 @@ Slides available at:
 ::: {#refs}
 :::
 
+
+# Probleme und Herausforderungen {visibility="uncounted"}
+
+<br>
+
+Konzeptionell:
+
+- Artenvielfalt kann nicht direkt erfasst sondern nur modelliert werden 
+- komplexe Zusammenhänge zwischen Biodiversität und Einflussfaktoren
+
+Technisch:
+
+- Orthofotos oft in unbelaubtem Zustand  
+  (Oberflächenmodelle fehlerhaft)
+- Digitaler Zwilling in belaubtem Zustand  
+  (andere Metriken als mit Landesdaten)
+- Daten zwischen Bundesländern oder Befliegungen nicht konsistent  
+  (erfordert komplexe Vorprozessierung)
+- Große Datenmengen   
+  (erfordert viel Rechenkapazität und effektive Pipelines)
+- Daten noch nicht überall frei verfügbar
+
+# Waldstruktur - Beispiele {visibility="uncounted"}
+
+
+:::: {.r-stack}
+::: {.fragment .fade-out  fragment-index=1}
+![](images/rheinhausen_chm.jpeg)  
+*Oberhöhe*
+:::
+
+::: {.fragment .fade-in-then-out  fragment-index=1}
+![](images/rheinhausen_dtm.jpeg)  
+*Gelände*
+:::
+
+::: {.fragment .fade-in-then-out  fragment-index=2}
+![](images/rheinhausen_dtm_time-in-daylight2.jpeg)  
+*Sonnenstrahlung*
+:::
+::: {.fragment .fade-in-then-out  fragment-index=3}
+![](images/rheinhausen_flow-accumulation.jpeg)  
+*Hydrologie*
+:::
+::: {.fragment .fade-in-then-out  fragment-index=4}
+![](images/rheinhausen_imean-upper.jpeg)  
+*Laub/ Nadel*
+:::
+::: {.fragment .fade-in-then-out  fragment-index=5}
+![](images/rheinhausen_imean-lower.jpeg)  
+*Verjüngung*
+:::
+::: {.fragment .fade-in  fragment-index=6}
+![](images/rheinhausen_ortho.jpeg)  
+*Orthofoto*
+:::
+
+::: {.attribution}
+Bildquelle:  Wiesehahn, [LGLN](https://www.lgln.niedersachsen.de)
+:::
+
+::::

@@ -1,8 +1,9 @@
 # <!-- EXAMPLE CONTENT - EDIT / REPLACE BELOW -->
 title: "{{< var website-title >}}"
-subtitle: "A template"
+subtitle: "From Plots to Landscapes: Integrating Remote Sensing Data to Map Forest Biodiversity"
 author: "Jens Wiesehahn"
-# institute: 
+# institute: "Northwest German Forest Research Institute" 
+institute: "Nordwestdeutsche Forstliche Versuchsanstalt" 
 
 project:
     type: website
@@ -16,15 +17,18 @@ website:
 
 format: # format options: https://quarto.org/docs/reference/formats/presentations/revealjs.html
     revealjs:
-        width: 1600
-        height: 1200
-        margin: 0.15
+        # width: 1600
+        # height: 1200
+        # margin: 0.15
+        width: 1920
+        height: 1080
+        margin: 0.1
         #title-slide-attributes:
         #    data-background-image: images/triangle_logo.png
         #    data-background-size: cover
         #    data-background-opacity: "1"
         slide-number: c/t
-        show-slide-number: speaker
+        show-slide-number: all
         transition: slide
         background-transition: fade
         preview-links: false 
