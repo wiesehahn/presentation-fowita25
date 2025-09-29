@@ -52,6 +52,7 @@ format: # format options: https://quarto.org/docs/reference/formats/presentation
         #footer: 
         #execute:
         #    eval: false
+        # self-contained: true
 
 revealjs-plugins:
     - verticator

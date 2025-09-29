@@ -7,7 +7,7 @@
 ##### Keywords:
 **Biodiversity**, **Airborne Laser Scanning**, **Remote Sensing**
 
-[![DOI](https://zenodo.org/badge/913827732.svg)](https://doi.org/10.5281/zenodo.15124197) [![presentation slides](https://img.shields.io/badge/Presentation%20Slides-373b38?logo=revealdotjs&logoColor=white)](https://wiesehahn.github.io/presentation-fowita25/presentation.html)
+[![presentation slides](https://img.shields.io/badge/Presentation%20Slides-373b38?logo=revealdotjs&logoColor=white)](https://wiesehahn.github.io/presentation-fowita25/presentation.html)
 
 
 #### Abstract
