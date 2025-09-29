@@ -257,7 +257,7 @@ Bildquelle:  Wiesehahn, [LGLN](https://www.lgln.niedersachsen.de)
 :::
 
 ::: {.fragment .fade-in-then-out  fragment-index=1}
-![](images/beech_stand_deadwood.png)
+![](images/beech_stand_above_2.png)
 
 ::: {.attribution}
 Bildquelle:  Wiesehahn, [LGLN](https://www.lgln.niedersachsen.de)
@@ -266,6 +266,15 @@ Bildquelle:  Wiesehahn, [LGLN](https://www.lgln.niedersachsen.de)
 :::
 
 ::: {.fragment .fade-in-then-out  fragment-index=2}
+![](images/beech_stand_deadwood.png)
+
+::: {.attribution}
+Bildquelle:  Wiesehahn, [LGLN](https://www.lgln.niedersachsen.de)
+:::
+
+:::
+
+::: {.fragment .fade-in-then-out  fragment-index=3}
 ![](images/laegeren_3d.png)
 
 ::: {.attribution}
