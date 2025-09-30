@@ -79,9 +79,6 @@ Bildquelle:  [biodiversitystripes.info](https://biodiversitystripes.info/)
 
 :::: {.columns}
 ::: {.column width="50%"}
-- **European Green Deal**
-  
-  *Strategie um Europa bis 2050 klimaneutral und ökologisch nachhaltig zu gestalten*
 - **EU Biodiversitätsstrategie**
   
   *Schutz und Wiederherstellung der biologischen Vielfalt in Europa bis 2030*
@@ -127,8 +124,8 @@ Biodiversität und deren Monitoring ist stärker in den Fokus der Politik gerüc
 - 590 systematisch verteilte Inventurpunkte
 - Niedersachsen (+ Hessen, Sachsen-Anhalt, Schleswig Holstein)
 - diverse Waldtypen: naturnah und bewirtschaftet
-- Artenvorkommen und Strukturaufnahmen
 - Wiederholung alle 5 Jahre
+- Artenvorkommen + Strukturaufnahmen
 
 <br>
 
@@ -400,7 +397,7 @@ Bildquelle:  Wiesehahn, [LGLN](https://www.lgln.niedersachsen.de)
 :::
 
 ::: {.column width="30%"}
-Prsentation online unter: 
+Präsentation online unter: 
 
 [{{< var website-name >}}]({{< var website-url >}})
 
