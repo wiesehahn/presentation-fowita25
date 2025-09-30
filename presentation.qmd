@@ -386,7 +386,9 @@ Bildquelle:  Wiesehahn, [LGLN](https://www.lgln.niedersachsen.de)
 
 
 <br>
-<br>
+
+[**Fragen / Anregungen / Kritik ?**]{.highlight-color-pink}
+
 <br>
 
 {{< iconify tabler mail size=lg >}} *[{{< var email-adress >}}](mailto:{{< var email-adress >}})*
